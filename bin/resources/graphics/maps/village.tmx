@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="remparts" tilewidth="32" tileheight="32">
+  <image source="../pictures/TileA3-byLunarea.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="herbe" tilewidth="32" tileheight="32">
+  <image source="../pictures/grass.png" width="96" height="192"/>
+ </tileset>
+ <layer name="1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEoev/pZdjoOCqqaqqqqqqqqqq6vMH2HTdAxAnAAA=
+  </data>
+ </layer>
+ <layer name="2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OAQ0AIAwDMMxdAhKQgH9MPFlyWgWtNcNOB5qcdKDJTQcAAAAAAAAAAIDvPOdkpBAQJwAA
+  </data>
+ </layer>
+ <objectgroup name="logic" width="50" height="50">
+  <object name="test" type="teleport" x="0" y="0" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -2,11 +2,13 @@ package main;
 
 import org.newdawn.slick.AppGameContainer;
 import org.newdawn.slick.SlickException;
-import Windows.*;
+
+import jeu.*;
 
 public class Main {
 
 	public static void main(String[] args) throws SlickException {
-        new AppGameContainer(new WindowGame(), 640, 480, false).start();
+
+        new AppGameContainer(new Game(), 640, 480, false).start();
     }
 }
